@@ -1,0 +1,3 @@
+# React useState: Incorrect State Modification in useEffect
+
+This repository demonstrates a common mistake when using the `useState` hook in React: directly modifying the state variable instead of using the setter function.  The example shows how attempting to directly modify `count` within the `useEffect` hook leads to unexpected behavior (the UI doesn't update). The solution demonstrates the correct method of updating state using the setter function (`setCount`).
